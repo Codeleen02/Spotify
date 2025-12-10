@@ -1,0 +1,27 @@
+body{
+   background-color: black;
+   color: white;
+}
+
+.left{
+   width: 25vw;
+}
+.right{
+  width: 75vw;
+}
+.flex{
+   display: flex;
+}
+
+.justify-content{
+   justify-content: center;
+}
+
+.items-center{
+   align-items: center;
+}
+
+.border{
+   border: 2px solid red;
+   margin: 3px;
+}
