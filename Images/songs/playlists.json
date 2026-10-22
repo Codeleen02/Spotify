@@ -1,0 +1,21 @@
+{
+  "anime": [{"file":
+    "songs/Anime ops/Let the world burn.mp3","artist":"Chris Grey"}
+  ],
+  "girly": [
+    {"file":"songs/Girly pop/Gabreilla.mp3","artist":"Katseye"}
+  ],
+  "sleep": [
+    {"file":"songs/Sleep Songs/Crazy.mp3","artist":"leseraffim"},
+  {"file":"songs/Sleep Songs/Dandelions.mp3","artist":"Ruth.B"}
+  ],
+  "indian": [
+   {"file":"songs/Indain pop songs/Block Boy.mp3","artist":"Doechii"}
+  ],
+  "trendy": [
+   {"file":"songs/Trendy Songs/Touch.mp3","artist":"Katseye"}
+  ],
+  "happy hits":[
+   {"file":"songs/Happy Hits/Crazy frog.mp3","artist":"Frog"}
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Play">
+  <!-- Spotify green circle -->
+  <circle cx="50" cy="50" r="48" fill="#1DB954"/>
+  <!-- White play triangle (centered) -->
+  <polygon points="40,30 40,70 72,50" fill="#ffffff" stroke="#ffffff" stroke-linejoin="round"/>
+</svg>
+ 

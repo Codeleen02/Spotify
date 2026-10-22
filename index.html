@@ -1,20 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify</title>
+    <title>Spotify-Web Player: Music for everyonr</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
-    
+
 </head>
+
 <body>
-    <div class="container flex">
-        <div class="left border">
-            <div class="home"></div>
-            <div class="library"></div>
-    </div>
-        <div class="right border">whatsdhfahfk</div>
-    </div>
+    <div class="container flex bg-black">
+        <div class="left p-1">
+            <div class="close">
+                <img width="25px" class="invert" src="Images/close.svg" alt="close">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <ul>
+                    <div class="logo invert"><img src="Images/logo.svg" alt="logo"></div>
+                    <li><img class="invert" src="Images/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="Images/search.svg" alt="search">Search</li>
+                </ul>
+                <div class="library bg-grey rounded m-1 p-1">
+                    <div class="playlist">
+                        <img class="invert" src="Images/playlist.svg" alt="playlist">
+
+                        <h2>Your Library</h2>
+                    </div>
+                    <div class="songtemplate ">
+                        <img class=" img1 invert" src="Images/music.svg" alt="musicsvg">
+                        <div class="info">
+                      
+                            <div>Song Name</div>
+                            <div>Artist Name</div>
+                
+                    </div>
+                        <div class="playnow">
+                            <div>Play Now</div>
+                            <img src="Images/play.svg" alt="playsvg">
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="footer">
+                        <div><a href="https://www.spotify.com/jp/legal"><span>Legal</span></a></div>
+                        <div><a href="https://www.spotify.com/jp/privacy"><span>Privacy Center</span></a></div>
+                        <div><a href="https://www.spotify.com/jp/legal/privacy.policy"><span>Privacy Policy</span></a>
+                        </div>
+                        <div><a href="https://www.spotify.com/jp/legal/cookies.policy"><span>Cookies</span></a></div>
+                        <div><a href="https://www.spotify.com/jp/legal/privacy.policy"><span>about Ads</span></a></div>
+                        <div><a href="https://www.spotify.com/jp/accessibility"><span>accessibility</span></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="right p-1">
+                <div class="header">
+                    <div class="nav bg-grey">
+                        <div class="invert hamburger-btn">
+                            <img src="Images/hamburger.svg" alt="hamburger">
+                        </div>
+                        <div class="svgs">
+                            <img class="invert" src="Images/left.svg" alt="left">
+                            <img class="invert" src="Images/right.svg" alt="right">
+                        </div>
+                        <div class="buttons">
+                            <button class="Signup">Sign up</button>
+                            <button class="Login">Login</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="spotifyPlaylists ">
+                    <h1>Spotify Playlists</h1>
+                    <div class="cardContainer">
+                        <div class="card" data-folder="anime">
+                            <div class="imgwrap">
+                            <img src="songs/Anime ops/Gojo.jpg" alt="1st">
+                            <h3>Anime openings</h3>
+                            <p> High-energy intros that hit like your favorite opening scene.</p>
+                            </div>
+                            <div class="play">
+                                <img src="Images/play.svg" alt="Playbtn">
+                            </div>
+                        </div>
+                       <div class="card" data-folder="girly">
+                            <div class="imgwrap">
+                            <img src="songs/Girly pop/Music Album cover.jpg" alt="1st">
+                            <h3>Girly Pop!</h3>
+                            <p>Sparkly,confident bops with feminine energy</p>
+                            </div>
+                            <div class="play">
+                                <img src="Images/play.svg" alt="Playbtn">
+                            </div>
+                        </div>
+                       <div class="card" data-folder="happy hits">
+                            <div class="imgwrap">
+                            <img src="songs/Happy Hits/Purple_3_.jpg" alt="1st">
+                            <h3>Happy Hits!</h3>
+                            <p>Hits to boost your mood and fill you with happiness!</p>
+                            </div>
+                            <div class="play">
+                                <img src="Images/play.svg" alt="Playbtn">
+                            </div>
+                        </div>
+                       <div class="card" data-folder="indian">
+                            <div class="imgwrap">
+                            <img src="songs/Indain pop songs/Copy of Fantasy Minimal Cover_Poster.jpg" alt="1st">
+                            <h3>Indian Pop Songs!</h3>
+                            <p>Catchy desi beats with modern flair.!</p>
+                            </div>
+                            <div class="play">
+                                <img src="Images/play.svg" alt="Playbtn">
+                            </div>
+                        </div>
+                       <div class="card" data-folder="sleep">
+                            <div class="imgwrap">
+                            <img src="songs/Sleep Songs/spotify cd playlist cover _˚ ࣪⊹_.jpg" alt="1st">
+                            <h3>Sleep Songs!</h3>
+                            <p>Soft sounds for late nights and quiet thoughts.</p>
+                            </div>
+                            <div class="play">
+                                <img src="Images/play.svg" alt="Playbtn">
+                            </div>
+                        </div>
+                       <div class="card" data-folder="trendy">
+                            <div class="imgwrap">
+                            <img src="songs/Trendy Songs/The 100 Best Album Covers of All Time.jpg" alt="1st">
+                            <h3>Trendy Songs!</h3>
+                            <p>What everyone’s looping right now.</p>
+                            </div>
+                            <div class="play">
+                                <img src="Images/play.svg" alt="Playbtn">
+                            </div>
+                        </div>   
+                </div>
+                <div class="playbar">
+                    <div class="songbuttons">
+                            <div class="song-details">
+                            <div class="info">Song Name</div>
+                            <div class="songtime">00:00/00:00</div>
+                        
+                        </div>
+                        <img id="prevsong" class="invert btn1" src="Images/prevsong.svg" alt="prevsong">
+                        <img id="play" class="playbtn2" src="Images/play.svg" alt="playsong">
+                        <img id="nextbtn" class="invert btn2" src="Images/next.svg" alt="nextsong">
+                        <img class="volume" id="volumeBtn" src="Images/volume.svg" alt="volumebtn">
+                        <img class="mute" src="Images/mute.svg" alt="mute">
+                        <input type="range" id="volumeSlider" min="0" max="1" step="0.01">
+                </div>
+                 <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
 </body>
 </html>
